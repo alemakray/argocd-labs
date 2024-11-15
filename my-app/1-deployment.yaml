@@ -17,9 +17,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          imagePullPolicy: Always
-          image: alemakray/nginx:v0.1.1
+          image: alemakray/nginx:v0.1.0
           ports:
             - containerPort: 80
-      imagePullSecrets:
-        - name: dockerconfigjson
